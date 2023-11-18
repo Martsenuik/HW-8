@@ -13,3 +13,18 @@ h3:first-child{
 p:nth-child(7){
     color:green;
 }
+.list-item:first-child{
+    color:blue;
+}
+.list-item:nth-child(3):hover{
+     font-size:20px;
+     color:pink;
+}
+.list-item:nth-child(even){
+    background-color: brown;
+}
+.list-item:last-child:visited{
+    color:red;
+    font-size: 50px;
+
+}
